@@ -15,7 +15,8 @@ const cors = require('cors');
 app.use(cors())
 
 //connect to DB
-const dbURI = 'mongodb+srv://dreamTeam:yoobee@mushroom-hunting.ym12l.mongodb.net/mushroom-hunting?retryWrites=true&w=majority';
+
+const dbURI = 'mongodb+srv://alexis:avalon2000@fungi-files.kj6jt.mongodb.net/fungi-files?retryWrites=true&w=majority';
 const PORT = 4000;
 
 mongoose.connect(dbURI, {useNewUrlParser: true, useUnifiedTopology:true, useFindAndModify:true})
